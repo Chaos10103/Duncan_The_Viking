@@ -1,0 +1,174 @@
+# The first chapter of Sir Duncan
+# Coded and written by Ken. (Chaos10103)
+
+def main():
+    print("As a young man of theage of 17 Duncan spent most of his days on \
+the farm with his father. His mother died at his birth so Duncan wasn\'t \
+much one for the softer side. He was always causing mischief with his fellow \
+youngins. Not much can be said about your average farm boy but what awaited \
+him was something much more marvoulous than one would think.")
+    print("One day Duncan discovers a small cave. 1. Go into the cave 2. \
+forget the cave exsisted.")
+    choice = input('1 or 2: ')
+    if choice == '1':
+        The_Cave_1()
+    elif choice == '2':
+        The_Farm_1()
+    else:
+        main()
+
+def The_Farm_1():
+    print('Duncan decides that it would be pointless to go in such a \
+dangerous looking place. He decides to head back to the farm. Upon his \
+arrival he finds that his father is not to be seen. Will Duncan 1. Go back \
+to the cave out of boredom or 2. Look for his father in town?')
+    choice = input('1 or 2: ')
+    if choice == '1':
+        The_Cave_1()
+    elif choice == '2':
+        The_Murder_1()
+    else:
+        The_Farm_1()
+
+def The_Murder_1():
+    print('Duncan rushes into town for the sake of forgetting his morning \
+daily excersizes. "Father always said a healthy man makes MC in a book \
+someday." As he reaches town there seems to be a rather large comotion \
+down by the Pub. Will Duncan 1. Ask one of the onlookers what is going on or \
+2. Rush through the crowd to see?')
+    choice = input('1 or 2: ')
+    if choice == '2':
+        The_Murder_2()
+    elif choice == '1':
+        The_Onlooker_1()
+    else:
+        The_Murder_1()
+
+def The_Onlooker_1():
+    print('"What\'s going on?" Duncan asks the strange looking man. "Aye \
+young lad there be a murder in the Pub." Filled with worry Duncan rushes \
+through knowing his Father was a fan of the Pub. Do you agree with Duncan\'s \
+choice of action? 1. yes 2. no')
+    choice = input('1 or 2: ')
+    if choice == '1':
+        The_Murder_2()
+    elif choice == '2':
+        print('So. You wouldn\'t be worried if it was your father??? \
+quite the heartless one aren\'t you?')
+        The_Murder_2()
+    else:
+        The_Onlooker_1()
+
+def The_Murder_2():
+    print('With great worry Duncan enters the Pub without hesitation. It is \
+none other than his Father.....DEAD!!! "How can this be!" "What did he do to \
+deserve this!" Filled with rage and sorrow he gets down and puches the floor \
+leaving cracks in the wood. Does Duncan 1. Get up and walk away or 2. grab his \
+fathers body and carry him to the farm?')
+    choice = input('1 or 2: ')
+    if choice == '1':
+        The_Advice_1()
+    elif choice == '2':
+        The_Burning_1()
+    else:
+        The_Murder_2()
+
+def The_Advice_1():
+    print('As you are walking away a strange man aproaches you and pulls \
+you over to tell you something. "Go back to the cave. It will change \
+your life." Unknowing where the man came from or how he managed to \
+disapear just as fast as he appeared Duncan decides to follow his advice.')
+    The_Cave_1()
+
+def The_Burning_1():
+    print('Duncan takes his fathers body home in hopes to hold a quick \
+funeral. As Duncan burns his fathers body various villagers arrive to \
+greive with him. Although Duncan and his father weren\'t to popular \
+in their village, it is only customary to show greif. Does Duncan 1. then \
+decide that his life is of no more concern and to enter the dangerous cave \
+or 2. Decide to gather his things and go on a journy to catch the murderer?')
+    choice = input('1 or 2: ')
+    if choice == '1':
+        The_Cave_1()
+    elif choice == '2':
+        The_Journey()
+    else:
+        The_Burning_1
+
+# Here is where I will write the code for the story about his revenge.
+# Esentially he meets people. Party up. Solve problems. Gets revenege...
+# ..or other things. Multiple ends.
+
+def The_Journey():
+    print('"This is just a demo so i suppose i can\'t quite go on a adventure \
+yet."\"Suppose I will just have to wait for the game realease."')
+
+
+
+# Here is where I will write the code for the story about the cave legend.
+# Steriotypical finds magical artifact. Gains strength. Becomes hero.
+# With multiple ends. Bad end. Good end where he becomes hero. ect.
+
+
+def The_Cave_1():
+    print('As Duncan desends into the caves depths he discovers it is much \
+deeper than he anticipated. 1. Does Duncan really want to continue or 2. \
+Does Duncan want to turn back?')
+    choice = input('1 or 2: ')
+    if choice == '1':
+        The_Cave_2()
+    elif choice == '2':
+        The_Farm_1()
+    else:
+        The_Cave_1()
+
+def The_Cave_2():
+    print('Duncan decides to keep up his courage and continue. He begins to \
+notice strange writting on the wall. 1. Should he just ignore them and move on \
+or 2. stop and investigate what the writting might say?')
+    choice = input('1 or 2: ')
+    if choice == '2':
+        The_Cave_2_1()
+    elif choice == '1':
+        The_Cave_3()
+    else:
+        The_Cave_2()
+    
+def The_Cave_2_1():
+    print('"Lets be honest with yourself Duncan. You never learned how to \
+read." He decides to move on thinking what a pain it would be to try. \
+Continue with your anyways? 1. yes 2. no')
+    choice = input('1 or 2: ')
+    if choice == '1':
+        The_Cave_3()
+    elif choice == '2':
+        print('Come on. I\'m gonna make you continue anyways idiot.')
+        The_Cave_3()
+    else:
+        The_Cave_2_1()
+
+def The_Cave_3():
+    print('Soon he reaches what looks to be like a chanber. (At this point \
+you\'r betting that there is some kind of awesome power and destiny thing \
+about to happen....well he\'s an average farmer. Not much to happen.) \
+Duncan had heard many stories about such tales. His imagination gleamed as \
+he entered the "room" of sorts. 1. Does Duncan look for something shiny or \
+2. Look for something dull?')
+    choice = input('1 or 2: ')
+    if choice == '2':
+        The_Discovery_1()
+    elif choice == '1':
+        print('"Think about it Duncan. Shiny is always the trap." Says his \
+inner self. Lets look for the one that really looks old.')
+        The_Discovery_1()
+    else:
+        The_Cave_3()
+
+def The_Discovery():
+    print('"This is just a demo so i suppose i can\'t quite go on a adventure \
+yet."\"Suppose I will just have to wait for the game realease."')
+
+
+main()
+
+              
