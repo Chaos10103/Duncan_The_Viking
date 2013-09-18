@@ -91,7 +91,7 @@ or 2. Decide to gather his things and go on a journy to catch the murderer?')
     if choice == '1':
         The_Cave_1()
     elif choice == '2':
-        The_Journey()
+        The_Journey_1()
     else:
         The_Burning_1
 
@@ -99,7 +99,7 @@ or 2. Decide to gather his things and go on a journy to catch the murderer?')
 # Esentially he meets people. Party up. Solve problems. Gets revenege...
 # ..or other things. Multiple ends.
 
-def The_Journey():
+def The_Journey_1():
     print('"This is just a demo so i suppose i can\'t quite go on a adventure \
 yet."\"Suppose I will just have to wait for the game realease."')
 
@@ -161,10 +161,8 @@ he entered the "room" of sorts. 1. Does Duncan look for something shiny or \
         print('"Think about it Duncan. Shiny is always the trap." Says his \
 inner self. Lets look for the one that really looks old.')
         The_Discovery_1()
-    else:
-        The_Cave_3()
 
-def The_Discovery():
+def The_Discovery_1():
     print('"This is just a demo so i suppose i can\'t quite go on a adventure \
 yet."\"Suppose I will just have to wait for the game realease."')
 
